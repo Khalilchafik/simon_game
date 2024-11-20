@@ -1,0 +1,13 @@
+<!-- colors.xml -->
+<resources>
+    <color name="colorPrimaryBlue">#3F51B5</color>
+    <color name="colorPrimaryYellow">#FFFF00</color>
+    <color name="colorPrimaryGreen">#00FF00</color>
+    <color name="colorPrimaryRed">#FF0000</color>
+    <!-- Couleurs pour les boutons pressés -->
+    <color name="colorPrimaryBluePressed">#803F51B5</color> <!-- Bleu avec opacité augmentée -->
+    <color name="colorPrimaryYellowPressed">#80FFFF00</color> <!-- Jaune avec opacité augmentée -->
+    <color name="colorPrimaryGreenPressed">#8000FF00</color> <!-- Vert avec opacité augmentée -->
+    <color name="colorPrimaryRedPressed">#80FF0000</color> <!-- Rouge avec opacité augmentée -->
+
+</resources>

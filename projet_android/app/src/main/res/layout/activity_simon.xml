@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- TextView pour afficher le score du jeu -->
+    <TextView
+        android:id="@+id/score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- GridLayout pour organiser les boutons de couleur en grille -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false">
+
+        <!-- Bouton Rouge -->
+        <Button
+            android:id="@+id/color_pad_red"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/color_button_red"/>
+
+        <!-- Bouton Bleu -->
+        <Button
+            android:id="@+id/color_pad_blue"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/color_button_blue"/>
+
+        <!-- Bouton Vert -->
+        <Button
+            android:id="@+id/color_pad_green"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/color_button_green"/>
+
+        <!-- Bouton Jaune -->
+        <Button
+            android:id="@+id/color_pad_yellow"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/color_button_yellow"/>
+    </GridLayout>
+</LinearLayout>

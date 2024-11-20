@@ -1,0 +1,17 @@
+<!-- res/drawable/color_button_green.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Couleur intensifiée pour l'état pressé -->
+        <shape android:shape="rectangle">
+            <solid android:color="#B9F6CA"/> <!-- Vert plus clair pour l'état pressé -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <item>
+        <!-- Couleur normale -->
+        <shape android:shape="rectangle">
+            <solid android:color="#4CAF50"/> <!-- Vert normal -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</selector>

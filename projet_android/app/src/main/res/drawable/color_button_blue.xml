@@ -1,0 +1,17 @@
+<!-- res/drawable/color_button_blue.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+
+        <shape android:shape="rectangle">
+            <solid android:color="#82B1FF"/> <!-- Bleu plus clair pour l'état pressé -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+    <item>
+        <!-- Couleur normale -->
+        <shape android:shape="rectangle">
+            <solid android:color="#2196F3"/> <!-- Bleu normal -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+</selector>
