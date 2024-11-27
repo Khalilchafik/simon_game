@@ -1,4 +1,4 @@
-//auteurs : Chafik khalil et Ouabel Abderrahim
+//auteurs : Chafik khalil 
 package com.example.projet_android;
 
 import android.content.Intent;
